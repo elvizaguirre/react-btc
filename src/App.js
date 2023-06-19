@@ -53,7 +53,7 @@ function App() {
       ws.close();
       wsbook.close();
     };
-  }, []);
+  });
 
   useEffect(() => {
     window.addEventListener("error", (e) => {
